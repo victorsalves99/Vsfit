@@ -1,6 +1,7 @@
 .Home {
     min-height: 70vh;
     background: linear-gradient(to bottom, #0D0D0D 50%,#727578);
+    padding: 3em 0 ;
 }
 .Home .home {
     display: grid;
