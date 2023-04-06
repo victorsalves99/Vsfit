@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/pages/Home/Home";
 import Error from "./components/pages/Error/Error";
 import Imc from "./components/pages/Imc/Imc";
+import Tmb from "./components/pages/Tmb/Tmb";
+import AguaPorLitro from "./components/pages/AguaPorLitro/AguaPorLitro";
 
 // const rotas = createBrowserRouter([
 //   {
@@ -30,6 +32,16 @@ const rotas = createBrowserRouter([
       {
         path:"/imc",
         element: <Imc/>,
+
+      },
+      {
+        path:"/tmb",
+        element: <Tmb/>,
+
+      },
+      {
+        path:"/qda",
+        element: <AguaPorLitro />,
 
       }
     ],

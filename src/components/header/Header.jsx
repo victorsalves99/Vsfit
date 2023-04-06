@@ -12,7 +12,7 @@ function Header(){
             <li><Link className="ancora"  to="/">Home</Link></li>
             <li><Link className="ancora"  to="/imc">IMC</Link></li>
             <li><Link className="ancora"  to="/tmb">TMB</Link></li>
-            <li><Link className="ancora"  to="/cda">Quantia de Agua por kg</Link></li>
+            <li><Link className="ancora"  to="/qda">Quantia de Agua por dia</Link></li>
         </nav>
     </header>
     )
