@@ -1,0 +1,19 @@
+.Home {
+    min-height: 70vh;
+    background: linear-gradient(to bottom, #0D0D0D 50%,#727578);
+}
+.Home .home {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+.Home .home img {
+    margin-left: 8em;
+    margin-top: 3em;
+}
+.Home .home p {
+    font-size: 2em;
+    text-align: justify;
+    margin-right: 3em;
+    color: #f0f8ff;
+}

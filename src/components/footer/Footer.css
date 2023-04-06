@@ -1,0 +1,27 @@
+.footer{
+    height: 15vh;
+    background-color: #0d0d0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f0f8ff;
+
+}
+.footer p {
+    font-size: 1em;
+    
+}
+.footer p span {
+    font-size: 1.3em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+}
+.footer p span a {
+    text-decoration: none;
+    color: #bdc31e;
+}
+.footer p span a:hover{
+    color: #7d8024;
+
+}

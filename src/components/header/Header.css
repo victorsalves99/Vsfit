@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  background-color: #0d0d0d;
+}
+.header h1 {
+  background: linear-gradient(to bottom, #fff, #0d0d0d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+  font-size: 2.8em;
+  cursor: pointer;
+}
+.header h1 #span {
+  font-size: 1.5em;
+  -webkit-text-fill-color: #bdc31e;
+}
+.header nav {
+  display: flex;
+  gap: 3em;
+}
+.header nav .ancora {
+  text-decoration: none;
+  color: #f0f8ff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.header nav .ancora:hover {
+  color: #f0f8ff71;
+}

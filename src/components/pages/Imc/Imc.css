@@ -1,0 +1,48 @@
+.imc {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #0D0D0D 50%,#727578);
+
+}
+.imc form {
+    position: relative;
+    background-color: #0D0D0D;
+    height: 400px;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px  #f0f8ff3f;
+    margin: 0 auto;
+}.imc form fieldset {
+    height: 95%;
+    margin: 10px;
+    border: 2px solid #f0f8ff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #f0f8ff3f;
+}
+.imc form   h2 {
+    color: #f0f8ff;
+    text-align: center;
+    margin: 1em 0;
+}
+.imc form  button {
+    width: 10em;
+    height: 3em;
+    margin: 0 calc(72% - 10em) ;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+    border: 2px solid #f0f8ff;
+    box-shadow: 0px 0px 5px #f0f8ff;
+    color: #f0f8ff;
+    font-size: 1em;
+    margin-top: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.imc form  button:hover {
+    background-color: #f0f8ff;
+    color: #0D0D0D;
+}
